@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 import { RainbowButton } from '@/components/ui/rainbow-button'
 import { HeroHeader } from './header'
 import { Download, Sparkles, Sparkle, Mic, Brain, Calendar } from 'lucide-react'
-import { LinaOrb } from './logo'
+import SiriOrb from '@/components/ui/siri-orb'
 import { Globe } from '@/components/ui/globe'
 
 const GLOBE_CONFIG = {
@@ -107,10 +107,19 @@ export default function HeroSection() {
                                     {/* Main orb container */}
                                     <div className="relative bg-black/40 backdrop-blur-xl rounded-3xl border border-white/10 p-8 shadow-2xl">
                                         <div className="flex flex-col items-center">
-                                            {/* Animated orb */}
+                                        {/* Animated orb */}
                                             <div className="relative">
-                                                <div className="absolute inset-0 animate-pulse blur-2xl bg-white/20 rounded-full opacity-50" />
-                                                <LinaOrb className="relative size-32 animate-float" />
+                                                <div className="absolute inset-0 animate-pulse blur-2xl bg-purple-500/20 rounded-full opacity-50" />
+                                                <SiriOrb 
+                                                    size="128px" 
+                                                    className="relative animate-float"
+                                                    colors={{
+                                                        c1: 'oklch(75% 0.2 60)',
+                                                        c2: 'oklch(78% 0.18 45)',
+                                                        c3: 'oklch(72% 0.22 80)'
+                                                    }}
+                                                    animationDuration={15}
+                                                />
                                             </div>
                                             
                                             {/* Status text */}
