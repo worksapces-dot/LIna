@@ -109,16 +109,16 @@ export default function HeroSection() {
                                         <div className="flex flex-col items-center">
                                         {/* Animated orb */}
                                             <div className="relative">
-                                                <div className="absolute inset-0 animate-pulse blur-2xl bg-purple-500/20 rounded-full opacity-50" />
+                                                <div className="absolute inset-0 animate-pulse blur-2xl bg-blue-500/20 rounded-full opacity-50" />
                                                 <SiriOrb 
                                                     size="128px" 
                                                     className="relative animate-float"
                                                     colors={{
-                                                        c1: 'oklch(75% 0.2 60)',
-                                                        c2: 'oklch(78% 0.18 45)',
-                                                        c3: 'oklch(72% 0.22 80)'
+                                                        c1: 'oklch(70% 0.25 250)',
+                                                        c2: 'oklch(65% 0.3 290)',
+                                                        c3: 'oklch(75% 0.2 220)'
                                                     }}
-                                                    animationDuration={15}
+                                                    animationDuration={12}
                                                 />
                                             </div>
                                             

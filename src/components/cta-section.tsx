@@ -56,7 +56,7 @@ export default function CTASection() {
                         
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                             <RainbowButton asChild size="lg">
-                                <Link href="https://github.com/worksapces-dot/LIna/releases/download/v1.0.0/Lina.Setup.1.0.0.exe">
+                                <Link href="https://github.com/worksapces-dot/Lina/releases/download/v1.0.1/Lina.Setup.1.0.0.exe">
                                     <Download className="mr-2 size-5" />
                                     Download for Windows
                                 </Link>
